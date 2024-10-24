@@ -1,8 +1,12 @@
 <footer>
-  <span class="footer-container">
+  <span>
     ©
     <th:block th:text="${#dates.format(new java.util.Date().getTime(), 'yyyy')}" />
     <a href="/" th:text="${site.title}"></a>. All Rights Reserved.<br />
-    <halo:footer />
   </span>
+  <span>
+    <a th:href="${theme.config.beian.icp_link}" target="_blank" th:text="${theme.config.beian.icp_text}"></a>
+    <a th:href="${theme.config.beian.gongan_link}" target="_blank" th:text="${theme.config.beian.gongan_text}"></a>
+  </span>
+  <halo:footer />
 </footer>

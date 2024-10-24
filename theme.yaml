@@ -1,11 +1,11 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: theme-modern-starter
+  name: theme-iShe
 spec:
-  displayName: Modern Starter
+  displayName: iShe
   author:
-    name: Halo
+    name: Hazel
     website: https://github.com/halo-dev
   description: A development starter theme with Vite Ecosystem for Halo
   logo: https://www.halo.run/logo
@@ -14,7 +14,7 @@ spec:
   issues: https://github.com/halo-dev/theme-modern-starter/issues
   settingName: "theme-modern-starter-setting"
   configMapName: "theme-modern-starter-configMap"
-  version: "1.0.0"
+  version: "1.0.1"
   requires: "2.0.0"
   license:
     - name: "GPL-3.0"
